@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "release": "npm run lint && standard-version && npm publish"
   },
   "keywords": [
     "vuepress",
@@ -15,7 +16,8 @@
   "repository": "viko16/vuepress-plugin-permalink-pinyin",
   "license": "MIT",
   "devDependencies": {
-    "standard": "^11"
+    "standard": "^11",
+    "standard-version": "^4.4.0"
   },
   "dependencies": {
     "transliteration": "^2.1.2"
