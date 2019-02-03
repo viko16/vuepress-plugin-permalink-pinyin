@@ -6,12 +6,12 @@ module.exports = pluginConfig => {
     extendPageData ($page) {
       // $page.path was encoded by VuePress already.
       // Make sure original so I decode it once.
-      const originPagePath = decodeURIComponent($page.path)
+      const pathArr = decodeURIComponent($page.path).split('/')
 
       // https://github.com/andyhu/transliteration#slugifystr-options
       const options = Object.assign({}, pluginConfig, { ignore: ['/', '.'] })
 
-      $page.path = slugify(originPagePath, options)
+      $page.path = pathArr.map(str => slugify(str, options)).join('/')
     }
   }
 }
