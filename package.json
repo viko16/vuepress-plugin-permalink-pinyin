@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-plugin-permalink-pinyin",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "standard": "^11"
+  }
+}
