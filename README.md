@@ -36,7 +36,13 @@ plugins: {
 }
 ```
 
-## Relation
+## Test
+
+```bash
+npm test
+```
+
+## Related Projects
 
 - Hexo version: https://github.com/viko16/hexo-permalink-pinyin
 

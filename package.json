@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "release": "npm run lint && standard-version && npm publish"
+    "test": "npm run lint && node test.js",
+    "release": "npm run test && standard-version && npm publish"
   },
   "keywords": [
     "vuepress",
