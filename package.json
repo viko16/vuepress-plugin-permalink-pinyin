@@ -1,7 +1,7 @@
 {
   "name": "vuepress-plugin-permalink-pinyin",
   "description": "A VuePress plugin which convert Chinese title to transliterate permalink.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "lint": "standard",

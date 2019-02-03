@@ -1,0 +1,12 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="0.1.0"></a>
+# 0.1.0 (2019-02-03)
+
+
+### Features
+
+* convert permalink to pinyin ([6f91fa5](https://github.com/viko16/vuepress-plugin-permalink-pinyin/commit/6f91fa5))
+* init ([80fc366](https://github.com/viko16/vuepress-plugin-permalink-pinyin/commit/80fc366))
