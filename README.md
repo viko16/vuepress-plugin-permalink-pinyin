@@ -7,12 +7,16 @@
 
 A VuePress plugin which convert Chinese title to transliterate permalink.
 
-> `/你今日饮咗未.md` => `https://your-site/ni-jin-ri-yin-zuo-wei.html`
+> `/你今日饮咗未.md` => `/ni-jin-ri-yin-zuo-wei.html`
 
 ## Installation
 
+> Note: Work For VuePress 1.x.x
+
 ```bash
 npm i vuepress-plugin-permalink-pinyin --save-dev
+# or
+yarn add vuepress-plugin-permalink-pinyin --dev
 ```
 
 ## Usage
