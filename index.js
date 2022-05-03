@@ -11,7 +11,7 @@ module.exports = pluginConfig => {
       // https://github.com/andyhu/transliteration#slugifystr-options
       const options = Object.assign({}, pluginConfig, { ignore: ['/', '.'] })
 
-      $page.path = pathArr.map(str => slugify(str, options)).join('/')
+      $page.path = $page.regularPath = pathArr.map(str => slugify(str, options)).join('/')
     }
   }
 }

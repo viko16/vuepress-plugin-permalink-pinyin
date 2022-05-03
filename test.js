@@ -8,7 +8,9 @@ const testCases = [
   ['/你今日/饮咗未.html', '/ni-jin-ri/yin-zuo-wei.html'],
   ['/hello/你好.html', '/hello/ni-hao.html'],
   ['/有  空        格.html', '/you-kong-ge.html'],
-  ['/有%20空%20格.html', '/you-kong-ge.html']
+  ['/有%20空%20格.html', '/you-kong-ge.html'],
+  ['/with-emoji😄.html', '/with-emoji.html'],
+  ['/ABCD.html', '/abcd.html']
 ]
 
 for (let i = 0; i < testCases.length; i++) {
@@ -16,6 +18,7 @@ for (let i = 0; i < testCases.length; i++) {
   const $page = { path: origin }
   plugin().extendPageData($page)
   assert.strictEqual($page.path, excepted)
+  assert.strictEqual($page.regularPath, excepted)
 }
 
 console.info('Test complete! Everything ok!')
