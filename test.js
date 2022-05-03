@@ -12,10 +12,10 @@ const testCases = [
 ]
 
 for (let i = 0; i < testCases.length; i++) {
-  const [ origin, excepted ] = testCases[i]
+  const [origin, excepted] = testCases[i]
   const $page = { path: origin }
   plugin().extendPageData($page)
   assert.strictEqual($page.path, excepted)
 }
 
-console.info(`Test complete! Everything ok!`)
+console.info('Test complete! Everything ok!')

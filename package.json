@@ -17,8 +17,8 @@
   "repository": "viko16/vuepress-plugin-permalink-pinyin",
   "license": "MIT",
   "devDependencies": {
-    "standard": "^11",
-    "standard-version": "^8.0.2"
+    "standard": "^17.0.0",
+    "standard-version": "^9.3.2"
   },
   "dependencies": {
     "transliteration": "^2.1.2"
